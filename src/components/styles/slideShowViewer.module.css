@@ -1,0 +1,19 @@
+.image{
+    width:100%;
+    height:auto;
+}
+.container{
+    display: block;
+    outline:solid;
+    outline-width: 2px;
+    outline-color: black;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonHolder{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

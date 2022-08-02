@@ -1,0 +1,27 @@
+.buttonContainer{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    margin-top: 10px;
+}
+.contentArea{
+    width: 100%;
+    height: 100%;
+}
+.contentBody{
+    margin-top: 10px;
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+
+}
+.inputArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:400px;
+    justify-content: center;
+}
+.contentHolder{
+    display: grid;
+    justify-content: center;
+}
